@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const userAgent = (navigator.userAgent || '').toLowerCase();
   const isCrawler = /bot|crawler|spider|crawling|gptbot|claudebot|perplexitybot|googlebot|bingbot|slurp|duckduckbot|baiduspider|yandexbot|facebookexternalhit/i.test(userAgent);
 
-  let secondsLeft = 5;
+  let secondsLeft = 45;
   let redirectTimer = null;
   let isPaused = false;
 
